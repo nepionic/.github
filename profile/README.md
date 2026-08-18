@@ -12,7 +12,14 @@ Our primary PLC infrastructure is **mostly written in IEC 61131-3 Structured Tex
 
 ### 2. Automation Tooling & DevOps
 We build companion software, code generation utilities, and deployment pipelines using modern software engineering languages (**Go, Rust, Python, Java, C#**):
-* **[magician](https://github.com/nepionic/magician)**: Companion C# tooling for automation engineering workflows.
+* **[ADS Logger](https://github.com/nepionic/ads-logger)**: ADS Logger is a Go library for subscribing to TwinCAT ADS log messages and streaming decoded entries over a channel. Also includes a standalone dump tool.
+* **[TwinCAT Analytics Go](https://github.com/nepionic/twincat-analytics-go)**: TwinCAT Analytics library for decoding binary MQTT messages.
+* **[TwinCAT Analytics Redpanda Connect Plugin](https://github.com/nepionic/twincat-analytics-redpanda-connect-plugin)**: TwinCAT Analytics connector for Redpanda. Reads from binary MQTT streams and puts the data into topics.
+* **[TwinCAT Kuma](https://github.com/nepionic/twincat-kuma)**: Tool to send uptime signals to [Uptime Kuma](https://github.com/louislam/uptime-kuma).
+* **[TwinCAT Scope View for Julia](https://github.com/nepionic/TcScopeView.jl)**: A Julia package for reading TwinCAT 3 Scope View .svb binary recording files.
+* **[TwinCAT Scope View for Python](https://github.com/nepionic/python-tcscopeview)**: Python reader for TwinCAT 3 Scope View .svb binary recording files.
+* **[magician](https://github.com/nepionic/magician)**: RESTful API for Automation Interface written as a C# Visual Studio extension. Particularly suited for AI workflows. Includes starting Claude skill.
+
 
 ---
 
