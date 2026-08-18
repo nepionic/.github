@@ -18,7 +18,7 @@ We build companion software, code generation utilities, and deployment pipelines
 * **[TwinCAT Kuma](https://github.com/nepionic/twincat-kuma)**: Tool to send uptime signals to [Uptime Kuma](https://github.com/louislam/uptime-kuma).
 * **[TwinCAT Scope View for Julia](https://github.com/nepionic/TcScopeView.jl)**: A Julia package for reading TwinCAT 3 Scope View .svb binary recording files.
 * **[TwinCAT Scope View for Python](https://github.com/nepionic/python-tcscopeview)**: Python reader for TwinCAT 3 Scope View .svb binary recording files.
-* **[magician](https://github.com/nepionic/magician)**: RESTful API for Automation Interface written as a C# Visual Studio extension. Particularly suited for AI workflows. Includes starting Claude skill.
+* **[Magician](https://github.com/nepionic/magician)**: RESTful API for Automation Interface written as a C# Visual Studio extension. Particularly suited for AI workflows. Includes starting Claude skill.
 
 
 ---
